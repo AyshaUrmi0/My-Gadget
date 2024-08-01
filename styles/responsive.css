@@ -8,6 +8,10 @@
 
     }
 
+    .popular-card{
+        grid-template-columns: repeat(2,1fr);
+    }
+
     
 }
 @media  screen and (max-width:500px) {
@@ -19,6 +23,17 @@
     }
     .navbar-main{
         flex-direction: row;
+        }
+
+        .banner{
+            flex-direction: column;
+        }
+        .banner-setting{
+            width: 100%;
+        }
+
+        .popular-card{
+            grid-template-columns: repeat(1,1fr);
         }
 
 
