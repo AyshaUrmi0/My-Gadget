@@ -10,6 +10,8 @@
     max-width:1200px;
     width: 90%;
     margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
 
 }
 
@@ -42,3 +44,47 @@
     display: none;
 }
 /* nav style ends here */
+
+/* main style starts here */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.banner-setting{
+    width:47%;
+    position: relative;
+}
+
+.banner-setting img{
+    width: 100%;
+    border-radius: 10px;
+}
+.banner-btn{
+    background:none;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    background-color: none;
+    border-radius: 10px;
+    margin: 10px ;
+}
+.discount{
+    background-color: rgba(0, 0, 0, 0.194);
+    color: white;
+    width: max-content;
+    border: 1 px solid black;
+    padding: 20px 60px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 20px;
+}
+
+
+
+/* main style ends here */
