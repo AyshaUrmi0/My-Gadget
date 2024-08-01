@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    max-width:1200px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+
+/* nav style starts here */
+.nav-background{
+    background-color: rgb(70, 77, 82);
+}
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    color: white;
+   
+   
+   
+}
+
+.nav-btn{
+    background-color: rgb(126, 124, 124);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+
+}
+.nev-bar{
+    display: none;
+}
+/* nav style ends here */

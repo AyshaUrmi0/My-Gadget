@@ -1,0 +1,27 @@
+@media  screen and (max-width:800px) {
+    .navbar-main{
+        flex-direction: column;
+        justify-content: center;}
+
+        .navbar-main>div{
+            margin: 20px;  
+
+    }
+
+    
+}
+@media  screen and (max-width:500px) {
+    .nev-bar{
+        display: block;
+    }
+    .nev-menu{
+        display: none;
+    }
+    .navbar-main{
+        flex-direction: row;
+        }
+
+
+    
+    
+}
